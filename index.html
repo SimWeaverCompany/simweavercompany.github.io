@@ -43,17 +43,111 @@ footer{background:#0c0d0f;color:#a4a6a8;padding:28px 0;font-size:12px}.footer-ro
 </div>
 <div class="hero-art" aria-label="Abstract illustration of interconnected simulation systems">
 <div class="orbit"></div>
-<svg viewBox="0 0 540 460" role="img" aria-label="Simulation systems connected through a central interoperability layer">
-<defs><linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#85d0ff"/><stop offset="1" stop-color="#168fff"/></linearGradient><linearGradient id="node" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#505257"/><stop offset=".32" stop-color="#2d2f33"/><stop offset="1" stop-color="#17191c"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7fafffff" stop-opacity=".16"/><stop offset=".45" stop-color="#f7fafffff" stop-opacity=".025"/><stop offset="1" stop-color="#000000" stop-opacity=".08"/></linearGradient></defs>
-<g fill="none" stroke="#66686b" stroke-width="1.5" opacity=".8"><path d="M270 222 L116 92 L56 237 L155 362 L270 222 L414 92 L482 240 L374 360 Z"/><path d="M116 92 L414 92 M56 237 L482 240 M155 362 L374 360 M116 92 L155 362 M414 92 L374 360"/></g>
-<g fill="none" stroke="url(#orange)" stroke-width="3"><path d="M116 92 L270 222 L414 92"/><path d="M56 237 L270 222 L482 240"/><path d="M155 362 L270 222 L374 360"/></g>
-<g fill="url(#node)" stroke="#85878a" stroke-width="1.3"><rect x="80" y="56" width="72" height="72" rx="5"/><rect x="20" y="201" width="72" height="72" rx="5"/><rect x="119" y="326" width="72" height="72" rx="5"/><rect x="378" y="56" width="72" height="72" rx="5"/><rect x="446" y="204" width="72" height="72" rx="5"/><rect x="338" y="324" width="72" height="72" rx="5"/></g><g fill="url(#glass)" stroke="none"><rect x="81" y="57" width="70" height="34" rx="4"/><rect x="21" y="202" width="70" height="34" rx="4"/><rect x="120" y="327" width="70" height="34" rx="4"/><rect x="379" y="57" width="70" height="34" rx="4"/><rect x="447" y="205" width="70" height="34" rx="4"/><rect x="339" y="325" width="70" height="34" rx="4"/></g>
-<g fill="none" stroke="#4db5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M100 85 h32 M100 98 h32 M100 111 h22"/><circle cx="56" cy="225" r="9"/><path d="M42 250 h28 M42 258 h20"/><path d="M139 350 h32 M139 362 h32 M139 374 h18"/><path d="M398 82 h32 M398 94 h32 M398 106 h22"/><circle cx="482" cy="226" r="9"/><path d="M468 250 h28 M468 258 h20"/><path d="M358 348 h32 M358 360 h32 M358 372 h18"/></g>
-<path d="M270 158 L329 192 L329 260 L270 294 L211 260 L211 192 Z" fill="#25272a" stroke="url(#orange)" stroke-width="2.5"/><path d="M270 160 L326 193 L326 218 L270 187 L214 218 L214 193 Z" fill="#f7faff" opacity=".055"/>
-<path d="M241 223 L260 242 L300 202" fill="none" stroke="#f7faff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<g fill="#d7d8d9" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.3"><text x="116" y="146" text-anchor="middle">SIMULATOR</text><text x="414" y="146" text-anchor="middle">GATEWAY</text><text x="56" y="292" text-anchor="middle">DIS</text><text x="482" y="295" text-anchor="middle">HLA</text><text x="155" y="420" text-anchor="middle">SENSORS</text><text x="374" y="420" text-anchor="middle">NETWORK</text></g>
+<svg viewBox="0 0 540 540" role="img" aria-label="Simulation systems connected through a central interoperability layer">
+<defs>
+  <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#85d0ff" />
+    <stop offset="1" stop-color="#168fff" />
+  </linearGradient>
+  <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#505257" />
+    <stop offset=".32" stop-color="#2d2f33" />
+    <stop offset="1" stop-color="#17191c" />
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f7faff" stop-opacity=".16" />
+    <stop offset=".45" stop-color="#f7faff" stop-opacity=".025" />
+    <stop offset="1" stop-color="#000000" stop-opacity=".08" />
+  </linearGradient>
+</defs>
+
+<!-- Background connections layer -->
+<g fill="none" stroke="#66686b" stroke-width="1.5" opacity=".8">
+  <path d="M270 222 L116 92 L56 237 L155 362 L270 222 L414 92 L482 240 L374 360 Z" />
+  <path d="M116 92 L414 92 M56 237 L482 240 M155 362 L374 360 M116 92 L155 362 M414 92 L374 360" />
+</g>
+<g fill="none" stroke="url(#orange)" stroke-width="3">
+  <path d="M116 92 L270 222 L414 92" />
+  <path d="M56 237 L270 222 L482 240" />
+  <path d="M155 362 L270 222 L374 360" />
+</g>
+
+<!-- Node boxes & glass highlights -->
+<g fill="url(#node)" stroke="#85878a" stroke-width="1.3">
+  <rect x="80" y="56" width="72" height="72" rx="5" />
+  <rect x="20" y="201" width="72" height="72" rx="5" />
+  <rect x="119" y="326" width="72" height="72" rx="5" />
+  <rect x="378" y="56" width="72" height="72" rx="5" />
+  <rect x="446" y="204" width="72" height="72" rx="5" />
+  <rect x="338" y="324" width="72" height="72" rx="5" />
+</g>
+<g fill="url(#glass)" stroke="none">
+  <rect x="81" y="57" width="70" height="34" rx="4" />
+  <rect x="21" y="202" width="70" height="34" rx="4" />
+  <rect x="120" y="327" width="70" height="34" rx="4" />
+  <rect x="379" y="57" width="70" height="34" rx="4" />
+  <rect x="447" y="205" width="70" height="34" rx="4" />
+  <rect x="339" y="325" width="70" height="34" rx="4" />
+</g>
+
+<!-- Node icons layer -->
+<g fill="none" stroke="#4db5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M100 85 h32 M100 98 h32 M100 111 h22" />
+  <circle cx="56" cy="225" r="9" />
+  <path d="M42 250 h28 M42 258 h20" />
+  <path d="M139 350 h32 M139 362 h32 M139 374 h18" />
+  <path d="M398 82 h32 M398 94 h32 M398 106 h22" />
+  <circle cx="482" cy="226" r="9" />
+  <path d="M468 250 h28 M468 258 h20" />
+  <path d="M358 348 h32 M358 360 h32 M358 372 h18" />
+</g>
+
+<!-- Central core badge -->
+<path d="M270 158 L329 192 L329 260 L270 294 L211 260 L211 192 Z" fill="#25272a" stroke="url(#orange)" stroke-width="2.5" />
+<path d="M270 160 L326 193 L326 218 L270 187 L214 218 L214 193 Z" fill="#f7faff" opacity=".055" />
+<path d="M241 223 L260 242 L300 202" fill="none" stroke="#f7faff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+<!-- Node labels -->
+<g fill="#d7d8d9" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.3">
+  <text x="116" y="146" text-anchor="middle">SIMULATOR</text>
+  <text x="414" y="146" text-anchor="middle">GATEWAY</text>
+  <text x="56" y="292" text-anchor="middle">DIS</text>
+  <text x="482" y="295" text-anchor="middle">HLA</text>
+  <text x="155" y="420" text-anchor="middle">SENSORS</text>
+  <text x="374" y="420" text-anchor="middle">NETWORK</text>
+</g>
+
+<!-- Converted caption text boxes with increased vertical space between title and text -->
+<g font-family="Arial,sans-serif" font-size="11">
+  <!-- Caption One: Top Left -->
+  <g transform="translate(20, 6)">
+    <rect x="0" y="0" width="170" height="56" rx="4" fill="#1d1f23" stroke="#66686b" stroke-width="0.75" opacity=".95" />
+    <text x="12" y="19" fill="#4db5ff" font-weight="700" font-size="10" letter-spacing="1.1">STANDARDS-LED</text>
+    <text x="12" y="40" fill="#d7d8d9" font-size="11">Built to interoperate</text>
+  </g>
+
+  <!-- Caption Two: Top Right -->
+  <g transform="translate(350, 6)">
+    <rect x="0" y="0" width="170" height="56" rx="4" fill="#1d1f23" stroke="#66686b" stroke-width="0.75" opacity=".95" />
+    <text x="12" y="19" fill="#4db5ff" font-weight="700" font-size="10" letter-spacing="1.1">OPEN SOURCE</text>
+    <text x="12" y="40" fill="#d7d8d9" font-size="11">Tools, components & examples</text>
+  </g>
+
+  <!-- Caption Three: Bottom Left -->
+  <g transform="translate(20, 428)">
+    <rect x="0" y="0" width="170" height="56" rx="4" fill="#1d1f23" stroke="#66686b" stroke-width="0.75" opacity=".95" />
+    <text x="12" y="19" fill="#4db5ff" font-weight="700" font-size="10" letter-spacing="1.1">ENGINEERING EXPERTISE</text>
+    <text x="12" y="40" fill="#d7d8d9" font-size="11">From protocol to platform</text>
+  </g>
+
+  <!-- Caption Four: Bottom Right -->
+  <g transform="translate(350, 428)">
+    <rect x="0" y="0" width="170" height="56" rx="4" fill="#1d1f23" stroke="#66686b" stroke-width="0.75" opacity=".95" />
+    <text x="12" y="19" fill="#4db5ff" font-weight="700" font-size="10" letter-spacing="1.1">SYSTEM INTEGRATION</text>
+    <text x="12" y="40" fill="#d7d8d9" font-size="11">One connected environment</text>
+  </g>
+</g>
 </svg>
-<div class="art-caption caption-one"><b>Standards-led</b>Built to interoperate</div><div class="art-caption caption-two"><b>System integration</b>One connected environment</div><div class="art-caption caption-three"><b>Engineering expertise</b>From protocol to platform</div><div class="art-caption caption-four"><b>Open Source</b>Tools, components &amp; examples</div>
 </div>
 </div></section>
 <div class="proof"><div class="wrap proof-grid"><div class="proof-item"><span>Open standards</span></div><div class="proof-item"><span>System knowledge</span></div><div class="proof-item"><span>Open Source</span></div><div class="proof-item"><span>Made for complexity</span></div></div></div>
@@ -65,7 +159,7 @@ footer{background:#0c0d0f;color:#a4a6a8;padding:28px 0;font-size:12px}.footer-ro
 <article class="offer-card"><div class="card-top"><span class="card-index">INTEGRATION</span><span class="card-icon">⤧</span></div><h3>Simulator integration</h3><p>Simulator components, connected into a coherent whole.</p></article>
 <article class="offer-card"><div class="card-top"><span class="card-index">ENGINEERING TOOLS</span><span class="card-icon">⌁</span></div><h3>Tools for simulation</h3><p>Open Source Tools to configure, observe and understand simulation infrastructure.</p></article>
 
-<article class="offer-card"><div class="card-top"><span class="card-index">EMERGING TECHNOLOGY</span><span class="card-icon">✳</span></div><h3>Modelling, data & AI</h3><p>Simulation data, automation and emerging capabilities.</p></article>
+<article class="offer-card"><div class="card-top"><span class="card-index">EMERGING TECHNOLOGY</span><span class="card-icon">✳&#xFE0E;</span></div><h3>Modeling, data & AI</h3><p>Simulation data, automation and emerging capabilities.</p></article>
 <article class="offer-card training-offer"><div class="card-top"><span class="card-index">TRAINING</span><span class="card-icon">◎</span></div><h3>Training in distributed simulation, standards &amp; HLA</h3><p>Practical, tailored training for teams working with HLA and distributed simulation.</p><a class="card-link" href="#contact">Training enquiries <span class="arrow">↗</span></a></article>
 </div>
 </div></section>
